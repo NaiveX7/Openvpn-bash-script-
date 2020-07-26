@@ -2,6 +2,7 @@
 automatic openvpn login
 
 #!/usr/bin/expect -f
+
 spawn sudo openvpn FILE.ovpn
 
 expect "Enter Auth Username:" 
